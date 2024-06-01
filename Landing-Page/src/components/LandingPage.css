@@ -1,0 +1,87 @@
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.herocontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: calc(100vh-72px)
+}
+
+.heroContainer {
+   max-width: 1105px;
+   height: 613px;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   /* border: 3px solid blue; */
+}
+
+.hero-text {
+   width: 595px;
+   height: 613px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.hero-image {
+   height: 487px;
+   width: 530px;
+}
+
+.heroH1 {
+   font-size: 108px;
+   font-weight: 800;
+   line-height: 102px;
+}
+
+.herop{
+   font-size: 16px;
+   font-weight: 600;
+   width: 404px;
+   height: 91px;
+   color: #5A5959;
+   text-align: left;
+   line-height: 20px;
+}
+
+.hero-image{
+   width: 450px;
+   height: 487px;
+   margin: auto;
+   /* border: 2px solid red; */
+}
+.shopnow{
+   all: unset;
+   
+   background-color: var(--red);
+   border: 2px solid var(--red);
+   color: white;
+   font-size: 24px;
+   font-weight: 500;
+   font-family: "Poppins";
+    padding: 3px 16px;
+}
+.category{
+   all:unset;
+   font-size: 24px;
+   font-family: "Poppins";
+   font-weight: 500;
+   padding: 3px 16px;
+   margin-left: 30px;
+   border: 2px solid grey;
+}
+.affiliate{
+   font-size: 16px;
+   font-weight: 400;
+   color: #5A5959;
+}
+.amazonLogo{
+   margin-left: 20px;
+}
+
